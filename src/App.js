@@ -3,6 +3,7 @@ import './App.css';
 import Header from './comoponents/Header/Header';
 import Home from './comoponents/Home/Home';
 import Login from './comoponents/Login/Login';
+import Products from './comoponents/Products/Products';
 import Register from './comoponents/Register/Register';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path='/products' element={<Products></Products>}></Route>
       </Routes>
     </div>
   );
